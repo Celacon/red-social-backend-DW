@@ -42,7 +42,7 @@ export const createUser = async (req, res) => {
         // Guardar la URL de la foto de perfil en la base de datos
         parametros.foto_perfil = foto_perfil_url;     
     }else {
-        parametros.foto_perfil = 'default.png'
+        parametros.foto_perfil = '../uploads/logo.jpg'
     }
 
      //Validar los datos
